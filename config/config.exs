@@ -42,6 +42,8 @@ config :phoenix, :template_engines,
           haml: PhoenixHaml.Engine,
           eex: Phoenix.Template.EExEngine
 
+config :phoenix, :json_library, Poison
+
 # Sample configuration:
 #
 #     config :logger, :console,
